@@ -17,16 +17,27 @@ Luego puedes instalar las dependencias con el comando
 
 ## Tutorial
 
-Puedes clonar el repositorio utilizando git.
+Dependencias nesesarias
 ```bash
   npm i bcrypt connect-flash express express-handlebars express-session method-override mongoose passport passport-local 
 ```
-
+Dependencias de desarrollo
+```bash
+  npm i nodemon -D
+```
 Carpetas nesesarias dentro de "src"
 ```bash
   mkdir config helpers models public routes views 
 ```
 
+### Descripcion de carpetas
+
+- views: todas las vistas html
+- routes: para crear las url o rutas del servidor
+- public: archivos estaticos
+- models: definicion de los datos
+- helpers: funciones
+- config: configuracion general
 
 ## Authors
 
